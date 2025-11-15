@@ -53,7 +53,7 @@ This project demonstrates how to build an **IoT Weather Monitoring System** usin
 #### **1\. Clone the Repository**
 
 `git clone`   
-`https://github.com/YogeshwaranP-05/IoT_Weather_Monitoring_System.git`   
+`https://github.com/Anshul-Rajpoot/Weather-Monitoring-System.git`   
 `cd IoT_Weather_Monitoring_System`  
 
 #### **2\. Connect the Components**
@@ -151,34 +151,4 @@ This project demonstrates how to build an **IoT Weather Monitoring System** usin
 `| Air Quality: Good (AQI: 45)             |`  
 `| Rain Status: No Rain                    |`  
 `-------------------------------------------`
-
----
-
-### **🤝 Contributing**
-
-We welcome contributions\! 🎯  
- If you have ideas for improvement or want to add new features:
-
-1. Fork the repository.
-
-2. Make your changes.
-
-3. Submit a pull request.
-
----
-
-### **🛡️ License**
-
-This project is licensed under the **GPL-3.0 License**.  
- Refer to the **`LICENSE`** file for details.
-
----
-
-### **📧 Contact**
-
-For any queries or suggestions, reach out via:
-
- 🌐 **Official Website:** [https://circuitdigest.com/microcontroller-projects/](https://github.com/YogeshwaranP-05)
-
-🚀 **Happy coding and weather monitoring\!** 🌦️
 
