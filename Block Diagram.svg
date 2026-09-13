@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="1100" height="650" fill="white"/>
+<style>
+.t{font-family:Arial,sans-serif;fill:#1f2937}.title{font-size:30px;font-weight:bold}.label{font-size:20px;font-weight:bold}.small{font-size:16px}
+.box{stroke:#334155;stroke-width:2}.arrow{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<text x="550" y="45" text-anchor="middle" class="t title">SkySense — ESP32 Local Weather Monitoring System</text>
+<rect x="430" y="250" width="240" height="120" rx="16" fill="#0f766e" class="box"/>
+<text x="550" y="300" text-anchor="middle" fill="white" class="label">ESP32 DevKit</text>
+<text x="550" y="330" text-anchor="middle" fill="white" class="small">Sensor processing + HTTP server</text>
+<rect x="70" y="120" width="190" height="80" rx="14" fill="#ef4444" class="box"/><text x="165" y="155" text-anchor="middle" class="label" fill="white">DHT11</text><text x="165" y="180" text-anchor="middle" class="small" fill="white">Temperature + Humidity</text>
+<rect x="70" y="270" width="190" height="80" rx="14" fill="#4f46e5" class="box"/><text x="165" y="305" text-anchor="middle" class="label" fill="white">BMP180</text><text x="165" y="330" text-anchor="middle" class="small" fill="white">Atmospheric Pressure</text>
+<rect x="840" y="120" width="190" height="80" rx="14" fill="#475569" class="box"/><text x="935" y="155" text-anchor="middle" class="label" fill="white">MQ135</text><text x="935" y="180" text-anchor="middle" class="small" fill="white">Air-quality signal</text>
+<rect x="840" y="270" width="190" height="80" rx="14" fill="#075985" class="box"/><text x="935" y="305" text-anchor="middle" class="label" fill="white">Rain Sensor</text><text x="935" y="330" text-anchor="middle" class="small" fill="white">Rain detection</text>
+<path d="M260 160 L430 285" class="arrow"/><path d="M260 310 L430 315" class="arrow"/><path d="M840 160 L670 285" class="arrow"/><path d="M840 310 L670 320" class="arrow"/>
+<rect x="430" y="490" width="240" height="75" rx="14" fill="#16a34a" class="box"/><text x="550" y="535" text-anchor="middle" class="label" fill="white">3.3V / 5V Power</text>
+<path d="M550 490 L550 370" class="arrow"/>
+<rect x="775" y="455" width="255" height="105" rx="14" fill="#7c3aed" class="box"/><text x="902" y="492" text-anchor="middle" class="label" fill="white">Wi-Fi Router</text><text x="902" y="520" text-anchor="middle" class="small" fill="white">Same local network</text>
+<rect x="775" y="95" width="255" height="95" rx="14" fill="#0e7490" class="box"/><text x="902" y="133" text-anchor="middle" class="label" fill="white">Phone / Laptop</text><text x="902" y="160" text-anchor="middle" class="small" fill="white">Browser dashboard</text>
+<path d="M670 340 C760 410 760 485 775 500" class="arrow"/>
+<path d="M775 520 C710 520 700 330 670 310" class="arrow"/>
+<text x="720" y="430" class="t small">HTTP over local Wi-Fi</text>
+<text x="550" y="610" text-anchor="middle" class="t small">No MQTT broker or cloud service required</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="1200" height="820" fill="white"/>
+<style>.t{font-family:Arial,sans-serif;fill:#1f2937}.title{font-size:30px;font-weight:bold}.h{font-size:20px;font-weight:bold}.s{font-size:16px}.pin{font-size:17px;font-family:monospace}.box{stroke:#334155;stroke-width:2}</style>
+<text x="600" y="45" text-anchor="middle" class="t title">SkySense ESP32 Wiring Diagram</text>
+<rect x="455" y="110" width="290" height="270" rx="18" fill="#0f766e" class="box"/>
+<text x="600" y="155" text-anchor="middle" fill="white" class="h">ESP32 DevKit</text>
+<text x="480" y="195" class="pin" fill="white">GPIO 4  ← DHT11 DATA</text>
+<text x="480" y="230" class="pin" fill="white">GPIO 34 ← MQ135 AOUT*</text>
+<text x="480" y="265" class="pin" fill="white">GPIO 27 ← Rain DO</text>
+<text x="480" y="300" class="pin" fill="white">GPIO 21 ↔ BMP180 SDA</text>
+<text x="480" y="335" class="pin" fill="white">GPIO 22 ↔ BMP180 SCL</text>
+<rect x="65" y="115" width="260" height="105" rx="15" fill="#ef4444" class="box"/><text x="195" y="150" text-anchor="middle" class="h" fill="white">DHT11</text><text x="195" y="178" text-anchor="middle" class="s" fill="white">VCC → 3.3V</text><text x="195" y="202" text-anchor="middle" class="s" fill="white">DATA → GPIO4, GND → GND</text>
+<rect x="65" y="285" width="260" height="105" rx="15" fill="#4f46e5" class="box"/><text x="195" y="320" text-anchor="middle" class="h" fill="white">BMP180</text><text x="195" y="348" text-anchor="middle" class="s" fill="white">SDA → GPIO21</text><text x="195" y="372" text-anchor="middle" class="s" fill="white">SCL → GPIO22, 3.3V, GND</text>
+<rect x="875" y="115" width="260" height="105" rx="15" fill="#475569" class="box"/><text x="1005" y="150" text-anchor="middle" class="h" fill="white">MQ135</text><text x="1005" y="178" text-anchor="middle" class="s" fill="white">AO → voltage divider → GPIO34</text><text x="1005" y="202" text-anchor="middle" class="s" fill="white">GND → GND</text>
+<rect x="875" y="285" width="260" height="105" rx="15" fill="#075985" class="box"/><text x="1005" y="320" text-anchor="middle" class="h" fill="white">Rain Sensor</text><text x="1005" y="348" text-anchor="middle" class="s" fill="white">DO → GPIO27</text><text x="1005" y="372" text-anchor="middle" class="s" fill="white">VCC → 3.3V*, GND → GND</text>
+<path d="M325 170 L455 200 M325 337 L455 285 M875 170 L745 230 M875 337 L745 265" stroke="#334155" stroke-width="3" fill="none"/>
+<rect x="300" y="470" width="600" height="250" rx="18" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<text x="600" y="510" text-anchor="middle" class="h t">MQ135 5V → ESP32 ADC protection</text>
+<text x="330" y="550" class="pin t">MQ135 AO ── 10 kΩ ──┬── GPIO34</text>
+<text x="570" y="580" class="pin t">│</text>
+<text x="570" y="615" class="pin t">20 kΩ</text>
+<text x="570" y="650" class="pin t">│</text>
+<text x="570" y="685" class="pin t">GND</text>
+<text x="330" y="710" class="s t">* ESP32 GPIOs are not 5-V tolerant. Never apply a 5-V analog signal directly.</text>
+</svg>
